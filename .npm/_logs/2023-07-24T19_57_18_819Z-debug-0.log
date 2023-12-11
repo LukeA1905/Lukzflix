@@ -1,0 +1,65 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@9.6.7
+2 info using node@v18.17.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/lukeaustin/Desktop/3D Portfolio/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/lukeaustin/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 5ms
+17 timing npm:load:configload Completed in 5ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm exec tailwinds init
+21 verbose argv "exec" "--" "tailwinds" "init"
+22 timing npm:load:setTitle Completed in 8ms
+23 timing config:load:flatten Completed in 2ms
+24 timing npm:load:display Completed in 2ms
+25 verbose logfile logs-max:10 dir:/Users/lukeaustin/.npm/_logs/2023-07-24T19_57_18_819Z-
+26 verbose logfile /Users/lukeaustin/.npm/_logs/2023-07-24T19_57_18_819Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 25ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 0ms
+33 timing arborist:ctor Completed in 0ms
+34 http fetch GET 404 https://registry.npmjs.org/tailwinds 816ms (cache skip)
+35 http fetch GET 404 https://registry.npmjs.org/tailwinds 708ms (cache skip)
+36 timing command:exec Completed in 1594ms
+37 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/tailwinds - Not found
+37 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+37 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+37 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:87:19)
+37 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:118:23)
+37 verbose stack     at async getManifest (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:30:22)
+37 verbose stack     at async missingFromTree (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:59:22)
+37 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:168:32
+37 verbose stack     at async Promise.all (index 0)
+37 verbose stack     at async exec (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:166:3)
+37 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli.js:89:5)
+38 verbose statusCode 404
+39 verbose pkgid tailwinds@*
+40 verbose cwd /Users/lukeaustin/Desktop/3D Portfolio
+41 verbose Darwin 22.4.0
+42 verbose node v18.17.0
+43 verbose npm  v9.6.7
+44 error code E404
+45 error 404 Not Found - GET https://registry.npmjs.org/tailwinds - Not found
+46 error 404
+47 error 404  'tailwinds@*' is not in this registry.
+48 error 404
+48 error 404 Note that you can also install from a
+49 error 404 tarball, folder, http url, or git url.
+50 verbose exit 1
+51 timing npm Completed in 1786ms
+52 verbose code 1
+53 error A complete log of this run can be found in: /Users/lukeaustin/.npm/_logs/2023-07-24T19_57_18_819Z-debug-0.log
